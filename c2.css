@@ -50,3 +50,7 @@ header nav ul li a {
     font-size: 25px;
     color: var(--secondary-color)
 }
+.contact-content {
+    display: inline;
+    
+}
