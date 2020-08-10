@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: rgb(29, 28, 28);
+    --secondary-color: rgb(2, 45, 90);
+    --tertiary-color: rgb(27, 27, 134);
+}
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+}
+header h1 {
+  font-weight: bolder;
+  font-size: 45px;
+  color: var(--tertiary-color);
+  margin: 0;
+  display: inline;
+}
+header a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.hero {
+    background-image: url("./images/sean4.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--primary-color)
+}
+.content {
+    font-size: 25px;
+    color: var(--secondary-color)
+}
